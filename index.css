@@ -132,6 +132,15 @@ section.projects .card img {
   border-radius: 10%;
 }
 
+.card-body {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.card .btn {
+  margin-top: auto !important;
+}
+
 /* TESTIMONIALS */
 
 section.testimonials .carousel-control-prev,
