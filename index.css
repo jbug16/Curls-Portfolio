@@ -67,8 +67,13 @@ section [class^="container"] {
   /* HERO */
   
   section.hero {
-    padding-top: 72px;
+    padding-top: 40px;
   }
+
+  .hero-btn {
+    padding-bottom: 20px;
+  }
+
   @media screen and (max-width: 576px) {
     section.hero {
       text-align: center;
