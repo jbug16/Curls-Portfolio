@@ -172,7 +172,7 @@ section.contact .social-media a {
     font-size: 1.3rem;
 }
 
-img {
+.border {
     border-color: #000000;
     border-width: 5px;
     border-style: solid;
