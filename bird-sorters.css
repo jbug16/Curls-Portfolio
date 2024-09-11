@@ -16,7 +16,7 @@ section [class^="container"] {
     text-align: center;
 }
 
-section:nth-child(2n+1) {
+section:nth-child(2n) {
     background-color: #ecf2ff;
 }
 
@@ -186,7 +186,39 @@ img {
     padding-top: 10px;
 }
 
+.middle-img {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
 .middle-btn {
     display: flex;
     justify-content: center;
+    padding: 10px;
+}
+
+.img-fluid {
+    width: 45%; 
+}
+
+
+@media screen and (max-width: 576px) {
+    section.more-info h3 {
+        padding-top: 40px;
+    }
+
+    section.more-info .img-fluid {
+    width: 70%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    section.more-info h3 {
+        padding-top: 40px;
+    }
+
+    section.brief .img-fluid {
+    width: 70%;
+    }
 }
