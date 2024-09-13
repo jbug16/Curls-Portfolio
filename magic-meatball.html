@@ -43,7 +43,7 @@
     <section class="title" id="title">
         <div class="container">
             <h1 class="display-4 fw-bold">Magic Meatball</h1>
-            <h5>Lead Gameplay Programmer</h5>     
+            <h5>Lead Gameplay Programmer and Pixel Artist</h5>     
         </div>
     </section>
 
@@ -53,14 +53,16 @@
                 <!-- First Column -->
                 <div class="col-md-6">
                     <h3>Brief</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis reprehenderit praesentium autem amet impedit omnis in nemo placeat consequatur adipisci odit assumenda error enim ratione, eaque accusamus ab quia dolorem!</p>
+                    <p>"Magic Meatball" challenges players to run a restaurant and a hidden potion shop simultaneously, using mirrored movements to manage both kitchens. Balancing cooking and potion-making while transferring items through a magical mirror creates a unique and engaging experience.</p>
                     <div class="my-work">
                         <p><strong>What I Worked On:</strong></p>
                         <ul>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vel animi facere repellat libero fugit fuga mollitia aliquam quaerat beatae iste aut, eos quibusdam reiciendis autem nihil, dolore laboriosam velit?</li>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vel animi facere repellat libero fugit fuga mollitia aliquam quaerat beatae iste aut, eos quibusdam reiciendis autem nihil, dolore laboriosam velit?</li>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vel animi facere repellat libero fugit fuga mollitia aliquam quaerat beatae iste aut, eos quibusdam reiciendis autem nihil, dolore laboriosam velit?</li>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vel animi facere repellat libero fugit fuga mollitia aliquam quaerat beatae iste aut, eos quibusdam reiciendis autem nihil, dolore laboriosam velit?</li>
+                            <li>Designed mirrored movement mechanic.</li>
+                            <li>Implemented item-throwing feature.</li>
+                            <li>Designed a cooking and crafting system.</li>
+                            <li>Implemented AI customers with random orders and timings.</li>
+                            <li>Created and modified pixel art sprites.</li>
+                            <li>Advertised submission and addressed player feedback.</li>
                         </ul>
                     </div>
                     <div class="row">
@@ -82,10 +84,10 @@
                 <!-- Second Column -->
                 <div class="col-md-6">
                     <div class="middle-img">
-                        <img class="img-fluid" src="assets/images/placeholder.png" alt="" style="width: 100%;">
+                        <img class="img-fluid border border-secondary rounded" src="assets/images/placeholder.gif" alt="" style="width: 100%;">
                     </div>
                     <div class="middle-btn">
-                        <a class="btn btn-outline-dark btn-md" href="">Store Page</a>
+                        <a class="btn btn-outline-dark btn-md" href="">Play Now!</a>
                     </div>
                 </div>
             </div>
@@ -103,6 +105,9 @@
                     <div class="middle-img">
                         <img class="img-fluid border border-secondary rounded" src="assets/images/apollo-3.png" alt="" style="width: 100%;">
                     </div>
+                    <div class="middle-btn">
+                        <a class="btn btn-outline-dark btn-md" href="">Game Design Document</a>
+                    </div>
                 </div>
     
                 <!-- Second Column -->
@@ -110,7 +115,7 @@
                     <h3>Game Design</h3>
                     <p>"Magic Meatball" is a single-player, action-puzzle game where players manage two interconnected kitchens—a public restaurant and a hidden potion shop. The game's core mechanics revolve around mirroring player movements in both spaces, challenging players to balance cooking orders and potion-making simultaneously. The magical and strategic theme adds depth, combining fast-paced gameplay with thoughtful planning.</p>
                     <h5>Game Objective</h5>
-                    <p>In "Magic Meatball," players strive to efficiently run a restaurant and a secret potion shop at the same time. The main goal is to balance customer orders, potion crafting, and ingredient management while keeping both sides operating smoothly. Success is determined by how well players handle simultaneous tasks without falling behind or making mistakes.</p>
+                    <p>In "Magic Meatball," players strive to efficiently run a restaurant and a secret potion shop at the same time. The main goal is to balance customer orders, potion crafting, and ingredient management while keeping both sides operating smoothly. Success is determined by how fast a player can make 10 orders.</p>
                     <h5>Gameplay Mechanics</h5>
                     <ul>
                         <li><strong>Mirrored Movement:</strong> Players control a chef whose movements are mirrored on the y-axis between the restaurant and potion shop. This mechanic requires careful positioning and planning to manage both kitchens effectively.</li>
@@ -163,19 +168,17 @@
     
                 <!-- Second Column -->
                 <div class="col-md-6">
-                    <h3>[Task 2]</h3>
-                    <p>This can talk about what this task is. Describe it in a lot of technical detail. Don't talk about how you completed it here, only what it is and why (if this is solving an issue).</p>
+                    <h3>Cooking and Crafting Items</h3>
+                    <p>This feature allows players to interact with machines to cook meals or craft potions. Players place ingredients into machines, which then process them into finished items. The system involves right-clicking to insert ingredients and another right-click to retrieve the final product. This mechanic is designed to streamline the crafting process and ensure that players can manage multiple tasks efficiently without requiring continuous manual input.</p>
                     <div class="my-work">
                         <p><strong>How I Achieved This:</strong></p>
                         <ul>
-                            <li>Point 1</li>
-                            <li>Point 2</li>
-                            <li>Point 3</li>
-                            <li>Point 4</li>
+                            <li><strong>Interaction Mechanism:</strong> Players right-click on a machine with the correct ingredient to initiate processing, with corresponding sound effects to indicate success or failure.</li>
+                            <li><strong>Processing Timer:</strong> Added a delay for processing to simulate the time needed to cook or craft.</li>
+                            <li><strong>Result Notification:</strong> Designed a pop-up bubble above the machine to signal when the item is ready. This visual cue helps players easily identify when the product is ready and what the ingredient they used turned into.</li>
+                            <li><strong>Item Retrieval:</strong> Designed a second right-click interaction to collect the finished item with out triggering cooking/crafting another item.</li>
                         </ul>
                     </div>
-                    <p>Explain point 1: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi alias optio animi aspernatur sed, velit neque praesentium quis, eos aut omnis consequuntur expedita, illum modi fuga doloremque est maxime culpa.</p>
-                    <p>so on... Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi alias optio animi aspernatur sed, velit neque praesentium quis, eos aut omnis consequuntur expedita, illum modi fuga doloremque est maxime culpa.</p>
                 </div>
             </div>
         </div>
