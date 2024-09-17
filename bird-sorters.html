@@ -53,14 +53,15 @@
                 <!-- First Column -->
                 <div class="col-md-6">
                     <h3>Brief</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis reprehenderit praesentium autem amet impedit omnis in nemo placeat consequatur adipisci odit assumenda error enim ratione, eaque accusamus ab quia dolorem!</p>
+                    <p>This puzzle game challenges players to sort different types of birds that are mixed up on branches. To complete each level, players must organize the birds by type, placing the same species on a single branch to remove them from the puzzle.</p>
                     <div class="my-work">
                         <p><strong>What I Worked On:</strong></p>
                         <ul>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vel animi facere repellat libero fugit fuga mollitia aliquam quaerat beatae iste aut, eos quibusdam reiciendis autem nihil, dolore laboriosam velit?</li>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vel animi facere repellat libero fugit fuga mollitia aliquam quaerat beatae iste aut, eos quibusdam reiciendis autem nihil, dolore laboriosam velit?</li>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vel animi facere repellat libero fugit fuga mollitia aliquam quaerat beatae iste aut, eos quibusdam reiciendis autem nihil, dolore laboriosam velit?</li>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vel animi facere repellat libero fugit fuga mollitia aliquam quaerat beatae iste aut, eos quibusdam reiciendis autem nihil, dolore laboriosam velit?</li>
+                            <li>Implemented UI for main menu and daily rewards with responsive layouts.</li>
+                            <li>Integrated Unity Ads and Ad-Free option to monetize gameplay.</li>
+                            <li>Created pause state for gameplay.</li>
+                            <li>Developed branch purchase logic allowing the player to add a branch to the level.</li>
+                            <li>Created a daily reward feature.</li>
                         </ul>
                     </div>
                     <div class="row">
@@ -107,19 +108,13 @@
     
                 <!-- Second Column -->
                 <div class="col-md-6">
-                    <h3>[Task 1]</h3>
-                    <p>This can talk about what this task is. Describe it in a lot of technical detail. Don't talk about how you completed it here, only what it is and why (if this is solving an issue).</p>
+                    <h3>Branch Management</h3>
+                    <p>This task involves integrating branch management functionality into the UI, allowing players to interact with branches during gameplay. The goal is to provide an intuitive way to manage and utilize branches, which are key gameplay elements.</p>
                     <div class="my-work">
                         <p><strong>How I Achieved This:</strong></p>
-                        <ul>
-                            <li>Point 1</li>
-                            <li>Point 2</li>
-                            <li>Point 3</li>
-                            <li>Point 4</li>
-                        </ul>
                     </div>
-                    <p>Explain point 1: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi alias optio animi aspernatur sed, velit neque praesentium quis, eos aut omnis consequuntur expedita, illum modi fuga doloremque est maxime culpa.</p>
-                    <p>so on... Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi alias optio animi aspernatur sed, velit neque praesentium quis, eos aut omnis consequuntur expedita, illum modi fuga doloremque est maxime culpa.</p>
+                    <p>The create branch button was implemented to manage branch icons and display the player's branch count in the Gameplay UI. Clicking the button removes a branch from the inventory and updates the UI through an event system, interacting with both GameplayManager and EditingManager to efficiently add branches.</p>
+                    <p>Branch limits per level were enforced by disabling the button once the maximum number of branches is reached to ensure gameplay balance. Each branch created is counted as a move to keep the gameplay challenging and to incentivise the player to save their branches.</p>
                 </div>
             </div>
         </div>
@@ -140,7 +135,7 @@
     
                 <!-- Second Column -->
                 <div class="col-md-6">
-                    <h3>[Task 2]</h3>
+                    <h3>Daily Reward Manager</h3>
                     <p>This can talk about what this task is. Describe it in a lot of technical detail. Don't talk about how you completed it here, only what it is and why (if this is solving an issue).</p>
                     <div class="my-work">
                         <p><strong>How I Achieved This:</strong></p>
