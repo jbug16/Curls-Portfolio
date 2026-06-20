@@ -11,35 +11,25 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg sticky-top shadow-sm">
-        <div class="container-lg">
-            <a class="navbar-brand fw-bold" href="index.html">Jenna Curls</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+    <header class="site-header">
+        <div class="container-lg site-header__inner">
+            <a class="site-logo" href="index.html">Jenna Curls</a>
+            <button class="site-nav__toggle" type="button" data-bs-toggle="collapse" data-bs-target="#siteNav"
+                aria-controls="siteNav" aria-expanded="false" aria-label="Menu">
+                <span class="site-nav__toggle-bar"></span>
+                <span class="site-nav__toggle-bar"></span>
+                <span class="site-nav__toggle-bar"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html#hero">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#services">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link d-lg-none" href="index.html#contact">Contact</a>
-                    </li>
+            <nav class="collapse site-nav" id="siteNav">
+                <ul class="site-nav__links">
+                    <li><a class="site-nav__link" href="index.html#hero">Home</a></li>
+                    <li><a class="site-nav__link" href="index.html#services">Skills</a></li>
+                    <li><a class="site-nav__link active" href="index.html#projects">Projects</a></li>
+                    <li><a class="site-nav__link" href="index.html#contact">Contact</a></li>
                 </ul>
-                <a class="btn btn-outline-dark d-none d-lg-block" href="index.html#contact">Let's Talk</a>
-            </div>
+            </nav>
         </div>
-    </nav>
+    </header>
 
     <section class="title" id="title">
         <div class="container">
@@ -152,8 +142,11 @@
         </div>
     </section>
     
-    <footer class="text-center p-3 bg-body-tertiary">
-        <div>© 2024. All Rights Reserved.</div>
+        <footer class="site-footer">
+        <div class="container-lg site-footer__inner">
+            <span>© 2026 Jenna Curls</span>
+            <a href="index.html#projects">Back to Projects</a>
+        </div>
     </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
